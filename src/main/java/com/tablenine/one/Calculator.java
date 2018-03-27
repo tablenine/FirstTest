@@ -1,4 +1,4 @@
-package com.tablenine;
+package com.tablenine.one;
 
 public class Calculator {
 	public void add(int firstNum, int secondNum) {

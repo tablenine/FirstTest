@@ -1,4 +1,4 @@
-package com.tablenine;
+package com.tablenine.one;
 
 public class MyCalculator {
 	private int firstNum;
