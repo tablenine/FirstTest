@@ -17,6 +17,51 @@
             <value>31번</value>
         </constructor-arg>
     </bean>
+
+    <bean id="student4" class="com.tablenine.seven.ex2.Student">
+        <constructor-arg>
+            <value>홍길자</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>11살</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>4학년</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>31번</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="student5" class="com.tablenine.seven.ex2.OtherStudent">
+        <constructor-arg>
+            <value>홍길자</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>11살</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>4학년</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>31번</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="student7" class="com.tablenine.three.Student">
+        <constructor-arg>
+            <value>홍길자</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>11살</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>4학년</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>31번</value>
+        </constructor-arg>
+    </bean>
     <context:annotation-config />
-    <bean class="com.tablenine.six.ex1.ApplicationConfig"></bean>
+    <bean class="com.tablenine.six.ex1.ApplicationConfig"/>
 </beans>
