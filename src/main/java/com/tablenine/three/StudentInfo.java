@@ -11,6 +11,10 @@ public class StudentInfo {
 		this.student = student;
 	}
 
+	public Student getStudent() {
+		return student;
+	}
+
 	public void getStudentInfo() {
 		if (student != null) {
 			System.out.println("이름 : " + student.getName());
